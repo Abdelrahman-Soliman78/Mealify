@@ -1,0 +1,173 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+} */
+
+/* 'sm': '640px', */
+@media (max-width: 640px) { 
+
+
+    .nave{
+        /* display: none; */
+    }
+
+    .nave .container {
+        flex-direction: column;
+    }
+
+    .nave .logo-nave h1{
+        margin-bottom: 15px;
+    }
+
+    .nave ul{
+        margin-bottom: 15px;
+    }
+
+
+    /* =========== end navebar ============= */
+
+    .home .content{
+        flex-direction: column;
+    }
+
+    .home .home-text{
+        text-align: center;
+    }
+    
+    
+    .home .home-img{
+        margin-top: 30px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .home-text h2{
+        font-size: 50px;
+    }
+
+    .home-text .btn-home{
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+
+    .home-text a i{
+        font-size: 30px;
+    }
+
+    /* ============== start section chefs ============*/
+    
+    .chefs{
+        width: 100%;
+        margin: auto;
+    }
+
+    .chefs-text p{
+        font-size: 30px;
+    }
+    
+    .chefs-text .content p span{
+        font-size: 30px;
+    }
+       
+    
+    .card{
+        flex-direction: column;
+    }
+
+
+    /* ============== end section chefs ============*/
+    
+    /* ============== start section gallary ============*/
+    
+    .gallery-text p{
+        font-size:30px ;
+    }
+
+    .gallery-text p span{
+        font-size: 30px;
+    }
+
+    .gallery-img{
+        flex-direction: column;
+    }
+    
+    /* ============== end section gallary ============*/
+    
+    /* ============== start section contact ============*/
+    
+    .contact-text p{
+        font-size: 30px;
+    }
+
+    .contact-text p span{
+        font-size: 30px;
+    }
+
+    .map iframe{
+        width: 100%;
+    }
+
+    .contact-information{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+
+    form{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+    }
+
+    form .name,.email{
+        width: calc(100% / 1);
+    }
+
+
+
+
+    /* ============== end section contact ============*/
+    
+    /* ============== start section footer ============*/
+    
+    .footer .container{
+        flex-direction: column;
+
+    }
+
+    .left-side{
+        width: 100%;
+        text-align: center;
+    }
+
+    .middle{
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-side{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .img-logo{
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    /* ============== end section footer ============*/
+}
+
+/* 'md': '768px', */
+@media (min-width: 768px) { 
+    
+ }
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) { ... }
